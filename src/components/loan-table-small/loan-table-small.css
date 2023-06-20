@@ -1,0 +1,86 @@
+
+.loan-table-small__header{
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+.loan-table-small__table{
+  width: 100%;
+  font-size: 11px;
+  color: #B3B7BF;
+}
+
+.loan-table-small__table tr {
+  border-bottom: 2px solid #2A364D;
+}
+
+.loan-table-small__clickable-row{
+  cursor: pointer;
+}
+
+.loan-table-small__clickable-row:hover {
+  background: #1A2337;
+}
+
+.loan-table-small__table-header {
+  font-weight: normal;
+}
+
+.loan-table-small__table-cell strong {
+  color: #fff;
+  font-weight: normal;
+}
+
+
+.loan-table-small__table-header, .loan-table-small__table-cell {
+  vertical-align: middle;
+  padding: 5px;
+  text-align: right;
+}
+
+.loan-table-small__table-cell {
+  line-height: 18px;
+}
+
+.loan-table-small__table-header:first-child, .loan-table-small__table-cell:first-child {
+  text-align:left;
+  line-height: 1.25;
+}
+
+.loan-table-small__button-cell {
+  width: 13%;
+}
+
+.loan-table-small__wide-cell {
+  white-space: nowrap;
+}
+
+.loan-table-small__table-body {
+  max-height: 220px;
+}
+
+.loan-table-small__spinner-container{
+  /*position:relative;*/
+  /*top:50px;*/
+  margin-top:50px;
+}
+
+.loan-table-small__btn {
+  background-color: #399A08;
+  color: #fff;
+  border-radius: 2px;
+  padding: 3px 5px;
+  line-height:12px;
+  min-width: 42px;
+}
+
+.loan-table-small__btn_disabled{
+  background-color:#3D4966;
+  color: #7F879A;
+  cursor: not-allowed;
+}
+
+.loan-table-small__btn_cancel{
+  display: none;
+  background-color: #B51313;
+}

@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  background: #0f182d;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  appearance: none;
+  border-radius: 0;
+  background: url("../assets/arrow.png") no-repeat 97% 50%;
+  background-size: 6px 4px;
+}
+
+input,
+select {
+  border: 1px solid #3D4966;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 5px 8px;
+  color: #fff;
+}
+
+button {
+  border-radius: 2px;
+  color: #fff;
+}
+
+::placeholder {
+  color: #676F80;
+}

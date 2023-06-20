@@ -1,0 +1,11 @@
+.disabled {
+  background: #3D4966;
+  color: #7F879A;
+  cursor: not-allowed;
+}
+.confirm-btn-spinner {
+  padding-top: 8px;
+}
+.repay-modal-token-symbol {
+  width: 50px;
+}

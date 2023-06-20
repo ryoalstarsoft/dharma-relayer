@@ -1,0 +1,67 @@
+.confirm{
+  padding: 20px;
+  color: #B3B7BF;
+}
+
+.confirm__row{
+
+}
+
+.confirm__header{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.confirm__row strong{
+  font-weight: normal;
+  color: #fff;
+}
+
+.confirm__buttons{
+  margin-top: 30px;
+}
+
+.confirm__btn-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm__btn-wrapper.confirm__btn-wrapper_centered{
+  justify-content: center;
+}
+
+.confirm__btn{
+  color: white;
+  height: 32px;
+  width: 200px;
+}
+
+.confirm__btn_confirm{
+  background-color: #399A08;
+}
+
+.confirm__btn_cancel{
+  background-color: #B51313;
+}
+
+.confirm__btn_disabled{
+  background-color: #3D4966;
+  color: #7F879A;
+  cursor: not-allowed;
+}
+
+.confirm__disclosure p {
+  margin-bottom: 10px;
+}
+
+.confirm__disclosure label {
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.confirm__disclosure input[type=checkbox] {
+  margin-right: 5px;
+}

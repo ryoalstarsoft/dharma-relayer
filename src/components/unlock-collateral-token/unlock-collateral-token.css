@@ -1,0 +1,24 @@
+.unlock-tokens__list{
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 10px 0 0 15px;
+  min-height: 38px;
+}
+.unlock-tokens__list li {
+  margin-bottom: 10px;
+}
+
+.unlock-tokens__toggle-row{
+  margin-top:10px;
+}
+
+.unlock-tokens__toggle-wrapper{
+  display:inline-block;
+  line-height: 14px;
+}
+
+.unlock-tokens__toggle-label{
+  display:inline-block;
+  vertical-align:super;
+  margin-left:10px;
+}
